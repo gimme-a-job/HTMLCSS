@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景のプロパティ</title>
+
+    <style>
+        body{background-color: green;}
+        [class]{
+            display: block;
+            width: 500px;
+            height: 500px;
+            padding: 10px;
+            border: solid 1px black ;
+            background-color: blue;
+        }
+        .img1{
+            background-color: gray;
+        }
+        .img2{
+            background-image: url('img/lightgreen.png');
+        }
+        .img3{
+            background-image: url('img/red.png');
+            background-repeat: repeat-y;
+        }
+        .img4{
+            background-image: url('img/yellow.png');
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+    </style>
+
+</head>
+<body>
+    <p class="img1">ここには背景画像を設定しています</p>
+    <p class="img2">ここには背景画像を設定しています</p>
+    <p class="img3">ここには背景画像を設定しています</p>
+    <p class="img4">ここには背景画像を設定しています</p>
+</body>
+</html>
