@@ -1,0 +1,14 @@
+body{background-color: yellow;} /*背景色を黄色*/
+h1{
+    font-size: large; /*フォントサイズを大きくする*/
+    color:red; /*文字色を赤*/
+    background-color: lime; /*文字の背景色を緑*/
+    text-align: center; /*中央揃え*/
+}
+p{
+    color:blue; /*文字色を青*/
+    text-align: center; /*中央揃え*/
+}
+a:link{color:#008000;} /*通常(未訪問)リンクの文字色(赤)*/
+a:visited{color:#ff0000;} /*既読(訪問済)リンクの文字色(緑)*/
+a:hover{color:#00ffff;} /*マウスでポインタした状態の文字色(水色)*/

@@ -1,0 +1,38 @@
+body{
+    /*background-color: rgb(0, 255, 200); /*背景色を黄色*/
+    background-color:beige; /*自分で追加*/
+    background-image: url(../img/main_photo\ \(2\).jpg); /*自分で追加*/
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#main{ /*自分で追加*/
+    background-color: antiquewhite; /*自分で追加*/
+}
+/* "https://okwave.jp/qa/q3812444.html"より */
+#toppage{ /*自分で追加*/
+    background-image: url(../img/main_photo\ \(2\).jpg); /*自分で追加*/
+}
+#waterfall /*自分で追加*/
+{
+    background-image: url(../img/waterfall\ \(2\).jpg); /*自分で追加*/
+}
+#park /*自分で追加*/
+{
+    background-image: url(../img/park\ \(2\).jpg); /*自分で追加*/
+}
+#schedule{ /*自分で追加*/
+    background-image: url(../img/大井川２.jpg); /*自分で追加*/
+}
+h1{
+    font-size: large; /*フォントサイズを大きくする*/
+    color:red; /*文字色を赤*/
+    background-color:cornsilk; /*文字の背景色を緑*/
+    text-align: center; /*中央揃え*/
+}
+p{
+    color:blue; /*文字色を青*/
+    text-align: center; /*中央揃え*/
+}
+a:link{color:#008000;} /*通常(未訪問)リンクの文字色(赤)*/
+a:visited{color:#ff0000;} /*既読(訪問済)リンクの文字色(緑)*/
+a:hover{color:#00ffff;} /*マウスでポインタした状態の文字色(水色)*/
